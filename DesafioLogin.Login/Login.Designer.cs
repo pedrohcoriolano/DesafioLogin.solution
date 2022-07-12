@@ -100,7 +100,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Login";
-            this.Text = "Form1";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.panelBackground.ResumeLayout(false);
             this.panelBackground.PerformLayout();

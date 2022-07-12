@@ -58,8 +58,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.bntExibir);
             this.Controls.Add(this.dataGridView);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Tabela";
-            this.Text = "Form2";
+            this.Text = "Tabela";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
